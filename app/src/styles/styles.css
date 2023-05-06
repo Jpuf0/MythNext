@@ -1,0 +1,225 @@
+@media only screen and (max-device-width: 600px) {
+  div#wrapper {
+      width: 400px;
+  }
+}
+
+body {
+  background-color: #181818 !important;
+}
+
+h1, p, h2, h3 {
+  color: white !important;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4 {
+  filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.4));
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.center-object {
+  display: flex !important;
+}
+
+.btn,
+input[type="submit"] {
+  border: 0 !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  height: 38px !important;
+  line-height: 38px !important;
+  margin: 0.5em !important;
+  padding: 0 30px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  position: static !important;
+}
+
+.pa {
+  padding: 20px;
+}
+
+footer {
+  margin-bottom: 0rem !important;
+}
+
+.text-left {
+  padding: 25px !important;
+  text-align: left !important;
+}
+
+.box {
+  padding: 10rem !important;
+}
+
+.overlay {
+  position:absolute !important;
+}
+
+.pad {
+  padding-top: 10rem;
+}
+
+.avatar{
+  border-radius: 50% !important;
+  text-align: center !important;
+  padding: 20px;
+  width: 250px;
+}
+
+.avatar-ds{
+  border-radius: 50% !important;
+  text-align: center !important;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.avatar-ph {
+  border-radius: 50% !important;
+  text-align: center !important;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+
+.sadism-dropshadow {
+  background-color: #4A235A !important;
+  filter: drop-shadow(5px 5px 0 rgba(86, 35, 90, 0.6));
+}
+
+.royalphx-dropshadow {
+  background-color: #00FFF0 !important;
+  filter: drop-shadow(5px 5px 0 rgba(0, 240, 255, 0.6));
+}
+
+.ds-dropshadow {
+  background-color: #1C0058 !important;
+  filter: drop-shadow(5px 5px 0 rgba(31, 0, 97, 0.6));
+}
+
+.dystopia-dropshadow {
+  background-color: #610000 !important;
+  filter: drop-shadow(5px 5px 0 rgba(97, 7, 0, 0.6));
+}
+
+.ignit-dropshadow {
+  background-color: #FF5733 !important;
+  filter: drop-shadow(5px 5px 0 rgba(255, 107, 51, 0.6));
+}
+
+.playhouse-dropshadow {
+  background-color: #FF33FF !important;
+  filter: drop-shadow(5px 5px 0 rgba(255, 51, 224, 0.6));
+}
+
+.playhouse {
+  display: inline-grid !important;
+}
+
+.ignit {
+  display: inline-grid !important;
+}
+
+.sadism {
+ display: inline-grid !important;
+}
+
+.ds {
+  display: inline-grid !important;
+}
+
+.royalphx {
+  display: inline-grid !important;
+}
+
+.dystopia {
+  display: inline-grid !important;
+}
+
+.lem {
+  width: 750px;
+}
+
+.fullscreen .background {
+    background-attachment: inherit !important;
+}
+
+.jclubs {
+  padding-top: 5rem;
+}
+
+.fs {
+  width: 500px !important;
+  height: 1000px !important;
+}
+
+.text-dark {
+  margin-bottom: 0rem !important;
+}
+
+.ktext {
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  padding-left: 0.5rem !important;
+}
+
+.buttons {
+  padding: 2rem;
+}
+
+.lem-jumbotron {
+  padding: 1rem !important;
+}
+
+.background {
+  width: 100% !important;
+  height: 1000px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px) brightness(50%) !important;
+}
+
+.aboutMeback {
+  width: 100% !important;
+  height: 1000px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px) brightness(50%);
+}
+
+.clubsBackground {
+  width: 100% !important;
+  height: 1000px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px) brightness(50%);
+}
+
+.Queen {
+  width: 500px !important;
+  height: 1000px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+}
