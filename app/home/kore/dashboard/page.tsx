@@ -1,11 +1,15 @@
 const config = require('../../../../config.js');
 
-const {Client, Intents} = require('discord.js');
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+import { Client, IntentsBitField } from "discord.js";
+
+const client = new Client({ intents: [IntentsBitField.Flags.Guilds] });
+
 client.login(config.discord.bot_token);
 
-const DarkDashboard = require('dbd-dark-dashboard');
-const DBD = require("discord-dashboard");
+//@ts-ignore
+import DarkDashBoard from "dbd-soft-ui";
+import dbd from "discord-dashboard";
+
 let langsSettings = {};
 
 (async ()=>{
@@ -22,7 +26,16 @@ let langsSettings = {};
         redirectUri: config.redirect_uri,
         domain: 'http://localhost/home/kore/dashboard',
         bot: client,
+        //@ts-ignore
         theme: DarkDashboard(DBD.default_configs.dbdDarkDashboard),
     });
     Dashboard.init();
 })();
+
+const page = () => (
+    <div>
+    
+    </div>
+)
+
+export default page;
